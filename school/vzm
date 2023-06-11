@@ -9,3 +9,4 @@ spam_system(PyObject *self, PyObject *args)
     sts = system(command);
     return PyLong_FromLong(sts);
 }
+this is python program
